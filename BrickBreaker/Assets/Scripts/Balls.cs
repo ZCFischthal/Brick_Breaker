@@ -2,56 +2,46 @@ using UnityEngine;
 
 public class BallBehavior : MonoBehaviour
 {
-    [SerializeField]
-    private KeyCode resetBall;
-    [SerializeField]
-    private float launchForce = 1f;
+    [SerializeField] private KeyCode resetBall;
+    [SerializeField] private float launchForce = 1f;
+    [SerializeField] private float paddleInfluence = 0.3f;
+    [SerializeField] private float speedMultiplier = 1.1f;
     private Rigidbody2D _rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        ResetBall();
-
-        //ternary operator, just abbrev of if/else statement
-        //[condition] ? [pass] : [fail]
-        // _direction.y = Random.value > 0.5f ? 1: -1; 
-        // _direction.x = Random.value > 0.5f ? 1: -1;
-        // _direction.y = GetNonZeroRandomFloat();
-        // _direction.x = GetNonZeroRandomFloat();
-        // _direction = _direction.normalized;
-        
-    }
-
-    void Update()
-    {
-        if (Input.GetKey(resetBall))
+        Vector2 direction = Random.insideUnitCircle;
+        if (Mathf.Abs(direction.y)< 0.25f) //if direction isn't wide enough
         {
-            ResetBall();
+            direction.y += 0.5f * Mathf.Sign(direction.y); //to make direction wider, depending on whether it's positive or negative Mathf.Sign will change .5 to match
         }
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        ResetBall();
-    }
-    
-    void ResetBall()
-    {
-        _rb.linearVelocity = Vector2.zero;
-        transform.position = Vector3.zero;
-        Vector2 direction = new Vector2(GetNonZeroRandomFloat(-1f, 1f), GetNonZeroRandomFloat(-1f, -.3f)).normalized;
-        //Vector2 direction = new Vector2(-1f, -1f).normalized;
+        if (Mathf.Approximately(Mathf.Sign(direction.y), 1.0f))
+        {
+            direction.y -= 2 * direction.y;
+        }
         _rb.AddForce(direction * launchForce, ForceMode2D.Impulse);
     }
 
-    float GetNonZeroRandomFloat(float min, float max)
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        float num;
-        do
+        MyManager.Instance.NewBall();
+        Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) 
+    {
+        if (other.gameObject.CompareTag("Paddle"))
         {
-            num = Random.Range(min, max);
-        } while(Mathf.Approximately(num, 0f));
-        return num;
+            if (!Mathf.Approximately(other.rigidbody.linearVelocity.y, 0.0f))
+            {
+                Vector2 direction = _rb.linearVelocity * (1.0f - paddleInfluence) + other.rigidbody.linearVelocity * paddleInfluence;
+                //magnitude is length of vector, used to maintain speed
+                //normalize makes length of direction always 1
+                _rb.linearVelocity = _rb.linearVelocity.magnitude * direction.normalized;
+            }
+            _rb.linearVelocity *= speedMultiplier;
+        }
     }
 }
