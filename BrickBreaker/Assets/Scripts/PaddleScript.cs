@@ -18,15 +18,18 @@ public class PaddleScript : MonoBehaviour
     {
         float xMovement = 0f;
 
-        if (Input.GetKey(right)) //&& transform.position.x <= rightEdge)
+        if (MyManager.Instance.GameMode == Utilities.GameState.Play)
         {
-            xMovement += speed;
-        }
-        if (Input.GetKey(left)) //&& transform.position.x >= leftEdge)
-        {
-            xMovement -= speed;
-        }
+            if (Input.GetKey(right)) //&& transform.position.x <= rightEdge)
+            {
+                xMovement += speed;
+            }
+            if (Input.GetKey(left)) //&& transform.position.x >= leftEdge)
+            {
+                xMovement -= speed;
+            }
 
-        transform.Translate(translation:new Vector3(xMovement, 0f, 0f) * Time.deltaTime);
+            transform.Translate(translation:new Vector3(xMovement, 0f, 0f) * Time.deltaTime);       
+        }
     }
 }

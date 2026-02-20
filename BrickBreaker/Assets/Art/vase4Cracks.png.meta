@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 4da9e7afeb5324fdd87771a3d53a8cb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6803303968053102569
+    second: vase4Cracks_0
+  - first:
+      213: -7754826800623055838
+    second: vase4Cracks_1
+  - first:
+      213: 5382159676570719968
+    second: vase4Cracks_2
+  - first:
+      213: 6908669739009372592
+    second: vase4Cracks_3
+  - first:
+      213: -4054178901195562952
+    second: vase4Cracks_4
+  - first:
+      213: -3684334250690592698
+    second: vase4Cracks_5
+  - first:
+      213: 1250537834070272833
+    second: vase4Cracks_6
+  - first:
+      213: 344598816584366658
+    second: vase4Cracks_7
+  - first:
+      213: 5051714786456166269
+    second: vase4Cracks_8
+  - first:
+      213: -6964142594452280469
+    second: vase4Cracks_9
+  - first:
+      213: 8114556495899032800
+    second: vase4Cracks_10
+  - first:
+      213: -5219427404179828185
+    second: vase4Cracks_11
+  - first:
+      213: -3531610407542225460
+    second: vase4Cracks_12
+  - first:
+      213: 1691695841861286931
+    second: vase4Cracks_13
+  - first:
+      213: 6844389109328552035
+    second: vase4Cracks_14
+  - first:
+      213: -2562492175731682619
+    second: vase4Cracks_15
+  - first:
+      213: -4586972638520999363
+    second: vase4Cracks_16
+  - first:
+      213: -8225550928565557336
+    second: vase4Cracks_17
+  - first:
+      213: 3206795144876131161
+    second: vase4Cracks_18
+  - first:
+      213: -2753173835098692082
+    second: vase4Cracks_19
+  - first:
+      213: -1173112257686959798
+    second: vase4Cracks_20
+  - first:
+      213: -3222028381227759892
+    second: vase4Cracks_21
+  - first:
+      213: 2236777713410788527
+    second: vase4Cracks_22
+  - first:
+      213: -2221842982247473290
+    second: vase4Cracks_23
+  - first:
+      213: -4966658623632879042
+    second: vase4Cracks_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vase4Cracks_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1161
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7187035261fc591a0800000000000000
+      internalID: -6803303968053102569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1168
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c0f269c12516490800000000000000
+      internalID: -7754826800623055838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1166
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6dd6eb5b541ba40800000000000000
+      internalID: 5382159676570719968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1157
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1f420268680ef50800000000000000
+      internalID: 6908669739009372592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1165
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830ea52f4c9acb7c0800000000000000
+      internalID: -4054178901195562952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1140
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64048c9f48d9edcc0800000000000000
+      internalID: -3684334250690592698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1128
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14be1f1d88dca5110800000000000000
+      internalID: 1250537834070272833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_7
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1145
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24af7844cc248c400800000000000000
+      internalID: 344598816584366658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fde4945db4b1640800000000000000
+      internalID: 5051714786456166269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b218c35356a5f90800000000000000
+      internalID: -6964142594452280469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1142
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec76e7e322bc9070800000000000000
+      internalID: 8114556495899032800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1149
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7221ceafd6ed097b0800000000000000
+      internalID: -5219427404179828185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_12
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1139
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc58f5dab033dfec0800000000000000
+      internalID: -3531610407542225460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1140
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cb52ab76c1a7710800000000000000
+      internalID: 1691695841861286931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1144
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360a41eb1a72cfe50800000000000000
+      internalID: 6844389109328552035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 670
+        height: 1091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c29bcd51f2307cd0800000000000000
+      internalID: -2562492175731682619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1132
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32058620bcc750c0800000000000000
+      internalID: -4586972638520999363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a727f4e209f8dd80800000000000000
+      internalID: -8225550928565557336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1131
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9530ac5a133d08c20800000000000000
+      internalID: 3206795144876131161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1127
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06ea02ebf2cac9d0800000000000000
+      internalID: -2753173835098692082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_20
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1137
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4989e6fd9448bfe0800000000000000
+      internalID: -1173112257686959798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1128
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce641b0224e0943d0800000000000000
+      internalID: -3222028381227759892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_22
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1133
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac4c59ba71aa0f10800000000000000
+      internalID: 2236777713410788527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 692
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fd178549d6a21e0800000000000000
+      internalID: -2221842982247473290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vase4Cracks_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 676
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e325bb9db42e21bb0800000000000000
+      internalID: -4966658623632879042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vase4Cracks_0: -6803303968053102569
+      vase4Cracks_1: -7754826800623055838
+      vase4Cracks_10: 8114556495899032800
+      vase4Cracks_11: -5219427404179828185
+      vase4Cracks_12: -3531610407542225460
+      vase4Cracks_13: 1691695841861286931
+      vase4Cracks_14: 6844389109328552035
+      vase4Cracks_15: -2562492175731682619
+      vase4Cracks_16: -4586972638520999363
+      vase4Cracks_17: -8225550928565557336
+      vase4Cracks_18: 3206795144876131161
+      vase4Cracks_19: -2753173835098692082
+      vase4Cracks_2: 5382159676570719968
+      vase4Cracks_20: -1173112257686959798
+      vase4Cracks_21: -3222028381227759892
+      vase4Cracks_22: 2236777713410788527
+      vase4Cracks_23: -2221842982247473290
+      vase4Cracks_24: -4966658623632879042
+      vase4Cracks_3: 6908669739009372592
+      vase4Cracks_4: -4054178901195562952
+      vase4Cracks_5: -3684334250690592698
+      vase4Cracks_6: 1250537834070272833
+      vase4Cracks_7: 344598816584366658
+      vase4Cracks_8: 5051714786456166269
+      vase4Cracks_9: -6964142594452280469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

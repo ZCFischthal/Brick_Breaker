@@ -108,6 +108,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Balls
   resetBall: 13
   launchForce: 3
+  paddleInfluence: 0.3
+  speedMultiplier: 1.1
+  _sfxSource: {fileID: 0}
+  batClip:
+  - {fileID: 8300000, guid: 73b70260670be436cbe176c91dd86eb6, type: 3}
+  - {fileID: 8300000, guid: ac5e94906312142c392ce26b4b2c3b6e, type: 3}
+  crackClip: {fileID: 8300000, guid: 8fdd66ccf36c3431b88f074b44d6a6a3, type: 3}
+  wallClip: {fileID: 8300000, guid: b0b6135605b2c453c9bc01b69e89f9fc, type: 3}
 --- !u!50 &8549703959618917892
 Rigidbody2D:
   serializedVersion: 5
